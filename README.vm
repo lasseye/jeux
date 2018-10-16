@@ -1,0 +1,10 @@
+Cette application propose deux jeux de logique basés sur la recherche d'une combinaison secrète :
+	- 1 combinaison constituée de chiffres --> Le Nombre d'Or;
+	- 1 combinaison constituée de couleurs --> Le Mastermind.
+
+Pour importer le projet sur Eclipse, veuillez suivre les instructions du PDF ci-joint : en cours d'écriture.
+
+Pour lancer l'application, ouvrez la classe LancementJeu - elle contient la méthode "main()" - puis cliquez sur le bouton "Run"
+dans la barre d'outils de Eclipse.
+
+ATTENTION : L'application dispose d'un fichier "config.properties" qui  
