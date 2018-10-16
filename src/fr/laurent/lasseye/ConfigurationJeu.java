@@ -98,7 +98,7 @@ public class ConfigurationJeu extends ElementsJeu {
 		FileInputStream fichierDesProprietes = null;
 		try {
 			fichierDesProprietes = new FileInputStream
-			   ("/Users/laurentlasseye/eclipse-workspace/Jeux_de_logique/src/fr/laurent/lasseye/" + "config.properties");
+			   ("/Users/laurentlasseye/git/jeux/src/fr/laurent/lasseye/" + "config.properties");
 				listeDesProprietes.load(fichierDesProprietes);
 				fichierDesProprietes.close();
 		} catch (FileNotFoundException e) {
