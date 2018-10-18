@@ -23,7 +23,7 @@ public class FenetreAccueil extends ElementsJeu implements ActionListener{
 	private final Bouton CHOIX_JEUX[] = {new Bouton(new ImageIcon("0.LeNombreOr.jpg")), new Bouton(new ImageIcon("1.LeMastermind.jpg"))};
 	private ButtonGroup groupeBoutons1 = new ButtonGroup();
 	private final RadioBouton MODES[] = {new RadioBouton(), new RadioBouton(), new RadioBouton()};
-	private final Bouton CHOIX_MODE[] = {new Bouton(new ImageIcon("0.Challenger.jpg")), new Bouton(new ImageIcon("1.Defendeur.jpg")), new Bouton(new ImageIcon("2.Duel.jpg"))};
+	private final Bouton CHOIX_MODE[] = {new Bouton(new ImageIcon("0.Challenger.jpg")), new Bouton(new ImageIcon("1.Defenseur.jpg")), new Bouton(new ImageIcon("2.Duel.jpg"))};
 	private ButtonGroup groupeBoutons2 = new ButtonGroup();
 	private final Bouton GO = new Bouton(new ImageIcon("0.Go.jpg"));
 	private final Bouton EXIT = new Bouton(new ImageIcon("0.QuitterJeu.jpg"));
