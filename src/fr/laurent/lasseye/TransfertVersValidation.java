@@ -51,7 +51,7 @@ public class TransfertVersValidation extends TransfertChoix {
 					/* Si l'ordre n'est pas respecté --> message   */
 					else { 
 						ecranMessages.setIcon(MESSAGES[8].getIcon()); // Affiche l'ordre à respecter.
-						OK.setEnabled(false);
+						OK.setVisible(false);
 						
 						logger.info(icone.getIcon() + " - ATTENTION, ORDRE A RESPECTER !"); // -------> log
 						
